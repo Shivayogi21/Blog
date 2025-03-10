@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-blog-challenge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "cross-env HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "cross-env": "^7.0.3",
+    "nuxt": "^3.13.0"
+  }
+}
